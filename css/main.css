@@ -1,0 +1,50 @@
+.control-label.required:after {
+    content: "*";
+    color: red;
+}
+
+.hint {
+    font-size: 13px;
+}
+
+.success {
+    border: 2px solid #28a745;
+}
+
+.error {
+    border: 2px solid red;
+}
+
+.error-message, .error-empty {
+    display: none;
+    color: red;
+}
+
+.photo {
+    height: 40px;
+    width: 40px;
+    outline: 4px inset #28a745;
+    outline-offset: 3px;
+    margin: 0 10px;
+}
+
+.big-photo {
+    height: 100px;
+    width: 100px;
+    outline: 4px inset #28a745;
+    outline-offset: 3px;
+}
+
+.table td {
+    vertical-align: middle;
+}
+
+.ui-autocomplete {
+    z-index: 1000
+}
+
+.ui-autocomplete {
+    max-height: 200px;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
